@@ -1,0 +1,54 @@
+.add-button{
+    background-color: rgb(255, 216, 20);
+    width: 100px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+}
+.buy-button{
+    background-color: rgb(255, 164, 28);
+    width: 100px;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+   
+}
+.para1{
+    font-weight: bold;
+   font-size: 40px;
+
+}
+.para2{
+    color: rgb(0,118,0);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.back:hover{
+    background-color: rgb(255, 164, 28);
+    opacity:0.6;
+    transition: 0.5;
+}
+.container{
+    width: 300px;
+}
+.stretch-button{
+    width: 100%; 
+    padding: 10px 20px; 
+    transition: width 0.3s ease;
+    background-color: green;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+   margin-top: 5px;
+   font-weight: bold;
+   font-size: 50px;
+}
+.stretch-button:hover {
+    background-color: green;
+    width: 150px; 
+}
+.stretch-button:active{
+    width: 100px;
+}
